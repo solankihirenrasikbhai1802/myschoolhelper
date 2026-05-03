@@ -1,0 +1,81 @@
+# Android Build System
+.gradle/
+gradle/
+build/
+*.apk
+*.aar
+*.ap_
+*.dex
+.gradle
+gradlew
+gradlew.bat
+
+# Android Studio
+.idea/
+*.iml
+*.iws
+*.ipr
+*.apk
+local.properties
+captures/
+.externalNativeBuild
+.cxx
+lint.xml
+
+# Android - Generated files
+/app/build/
+/app/captures/
+gen/
+bin/
+proguard/
+proguard_logs/
+
+# Node.js / npm
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+lerna-debug.log*
+dist/
+build/
+
+# Backend / Frontend
+frontend/dist/
+frontend/build/
+backend/node_modules/
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env*.local
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE
+.vscode/
+.vs/
+*.swp
+*.swo
+*~
+.sublime-project
+.sublime-workspace
+
+# Misc
+*.log
+.cache
+temp/
+tmp/
+coverage/
+test-results/
